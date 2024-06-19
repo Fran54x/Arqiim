@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">ProyectoFinal_Moviles</string>
+
+    <string name="loging">Login</string>
+    <string name="user">Usuario</string>
+    <string name="correo">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="total_format">Total: $ %1$.2f</string>
+
+
+    <string name="registrar">Registrar</string>
+    <string name="usuario">Usuario</string>
+    <string name="telefono">Télefono</string>
+    <string name="acepto">Acepto</string>
+    <string name="terminos">Términos y Condiciones</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Grupo Arquiim</string>
+    <string name="nav_header_subtitle">grupo.arquiim.@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Productos</string>
+
+
+    <string name="product_name1">Compactadora</string>
+    <string name="product_name2">Compactadora</string>
+    <string name="product_name3">Compactadora</string>
+    <string name="product_name4">Compactadora</string>
+    <string name="product_name5">Compactadora</string>
+
+    <string name="product_details1">Marca: shein</string>
+    <string name="product_details2">Modelo: #34D</string>
+
+    <string name="product_price1">$500</string>
+
+
+    <string name="menu_gallery">Correo</string>
+    <string name="menu_slideshow">Mi Perfil</string>
+    <string name="menu_compras">Mis compras</string>
+    <string name="menu_histo">Historial</string>
+    <string name="menu_nos">Nosotros</string>
+    <string name="menu_fav">Favoritos</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="TxtNosotros">Grupo ARQIIM es una empresa enfocada en el campo de alquiler de maquinaria de
+                                construcción, desempeña un papel fundamental en el sector, proporcionando una amplia
+                                gama de equipos y servicios de calidad a empresas y profesionales de la construcción. Su
+                                extenso catálogo de maquinaria y su experiencia en el campo han posicionado a Grupo
+                                ARQIIM como un referente confiable en la industria. Nuestra propuesta de desarrollo de una
+                                aplicación móvil surge con la intención de impulsar aún más el éxito de la empresa, al tiempo
+                                que mejorará significativamente la experiencia tanto de sus clientes como de su personal interno.
+    </string>
+
+    <string name="Temrs">Terminos y Condiciones</string>
+    <string name="txLoster">Lorem ipsum dolor sit amet consectetur adipiscing elit maecenas interdum, diam hendrerit integer viverra eu justo hac faucibus dapibus augue, donec feugiat porttitor cum at purus euismod duis. Sociis convallis sed ante tincidunt potenti est natoque porttitor facilisis, parturient varius diam nulla etiam semper volutpat accumsan, montes eu a nam condimentum hendrerit felis faucibus. Tincidunt penatibus ridiculus class lobortis nascetur lacinia vitae fringilla, risus nulla habitant laoreet vehicula eleifend dapibus ac at, felis eu mi eros placerat dignissim donec. Blandit eros feugiat mi diam consequat parturient sed, curae mauris phasellus dapibus eget aliquam, hendrerit cum vivamus donec nascetur ligula.
+Lectus purus mollis cursus fringilla mus euismod habitasse neque porttitor, ullamcorper justo velit a diam nunc gravida est, montes sed etiam laoreet commodo condimentum cubilia risus. Varius euismod maecenas scelerisque cursus vulputate facilisi integer eleifend dictumst in, tellus curae convallis ante bibendum pellentesque magna ultricies luctus condimentum, interdum rutrum inceptos habitasse congue mi penatibus morbi volutpat. Id in odio nulla justo libero dapibus cum elementum litora, senectus suspendisse lobortis blandit lacinia potenti porttitor at facilisi, posuere placerat a sagittis varius pellentesque duis pharetra. Euismod rhoncus eget per posuere aenean nam habitasse et, vestibulum ad nostra id vulputate molestie neque, dictum egestas urna laoreet rutrum leo erat.
+Lacinia cras potenti hac et orci ante mollis magnis pharetra, rhoncus iaculis montes lacus blandit laoreet nam class eu donec, nunc fusce gravida in arcu hendrerit penatibus risus. Ac inceptos molestie purus arcu egestas nascetur magnis in, risus cubilia mattis lacinia blandit gravida mus litora, aliquam ad orci mollis torquent natoque tincidunt. Pulvinar cursus lectus curae ante nibh rhoncus mauris felis accumsan mi nullam sem dis, massa at lacus posuere sapien purus ac nunc platea proin parturient sagittis. Nibh penatibus massa a montes rhoncus, et risus cursus habitant erat, praesent primis neque metus.
+. Pulvinar cursus lectus curae ante nibh rhoncus mauris felis accumsan mi nullam sem dis, massa at lacus posuere sapien purus ac nunc platea proin parturient sagittis. Nibh penatibus massa a montes rhoncus, et risus cursus habitant erat, praesent primis neque metus.</string>
+
+
+    <!--    Correo-->
+    <string name="nuevo">Nuevo: </string>
+    <string name="confirmar">Confirmar: </string>
+    <string name="correoActualizar">vanessaLisset12@gmail.com</string>
+    <string name="modificar">Modificar</string>
+    <!--    Detalle producto-->
+    <string name="Rentar">Rentar</string>
+
+    <string name="salir">Salir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--    Notificacion-->
+    <string name="aceptar">Aceptar Renta</string>
+    <string name="cancelar">Cancelar Renta</string>
+
+    <!--    Mapas-->
+    <string name="mapa">Localizacion</string>
+
+</resources>

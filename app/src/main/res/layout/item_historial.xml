@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/marcaproductos"
+    android:layout_marginBottom="16dp"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image_producto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:src="@drawable/prod1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:id="@+id/nombre_producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Producto"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/precio_por_dia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio al Día: $"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/dias_a_rentar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Días a rentar: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: $"/>
+
+        <TextView
+            android:id="@+id/fecha_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desde fecha:" />
+
+        <TextView
+            android:id="@+id/fecha_fin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasta fecha:" />
+
+
+    </LinearLayout>
+</LinearLayout>

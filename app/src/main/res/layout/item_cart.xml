@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="26dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/marcaproductos"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ivCartProduct"
+            android:layout_width="123dp"
+            android:layout_height="131dp"
+            android:background="@color/white"
+            android:src="@drawable/prod1" />
+
+        <TextView
+            android:id="@+id/tvCartProductName"
+            android:layout_width="102dp"
+            android:layout_height="60dp"
+            android:layout_alignTop="@id/ivCartProduct"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/ivCartProduct"
+            android:text="Compactadora"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCartProductPricePerDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCartProductName"
+            android:layout_alignStart="@id/tvCartProductName"
+            android:text="Precio al Día: $550"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvCartDaysToRent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCartProductPricePerDay"
+            android:layout_alignStart="@id/tvCartProductPricePerDay"
+            android:text="Días a rentar: 1"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvCartTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCartDaysToRent"
+            android:layout_alignStart="@id/tvCartDaysToRent"
+            android:text="Total: $550"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRemoveFromCart"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="52dp"
+            android:src="@drawable/delete"
+            app:icon="@drawable/delete" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

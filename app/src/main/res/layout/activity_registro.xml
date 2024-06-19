@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/txtRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="130dp"
+        android:text="@string/registrar"
+        android:textColor="@color/title"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:cornerRadius="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imglogin" />
+
+    <ImageView
+        android:id="@+id/imglogin"
+        android:layout_width="99dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="156dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img1" />
+
+    <EditText
+        android:id="@+id/edtUs"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="62dp"
+        android:background="@drawable/marcaredonda"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="@string/usuario"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:textColor="#A8A8A8"
+        android:textColorHint="#A8A8A8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRegistrar" />
+
+    <EditText
+        android:id="@+id/edtTelefono"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="62dp"
+        android:background="@drawable/marcaredonda"
+        android:drawableStart="@drawable/phone"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="@string/telefono"
+        android:inputType="phone"
+        android:paddingStart="20dp"
+        android:textColor="#A8A8A8"
+        android:textColorHint="#A8A8A8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+
+    <CheckBox
+        android:id="@+id/checkTerminos"
+        android:layout_width="97dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="157dp"
+        android:text="@string/acepto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTermino" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="62dp"
+        android:background="@drawable/marcaredonda"
+        android:drawableStart="@drawable/contrasena"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColor="#A8A8A8"
+        android:textColorHint="#A8A8A8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCorreo" />
+
+    <EditText
+        android:id="@+id/edtCorreo"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="62dp"
+        android:background="@drawable/marcaredonda"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColor="#A8A8A8"
+        android:textColorHint="#A8A8A8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtUs" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="290dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="61dp"
+        android:backgroundTint="#EFB810"
+        android:text="@string/registrar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:cornerRadius="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkTerminos" />
+
+    <TextView
+        android:id="@+id/txtTermino"
+        android:layout_width="181dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="115dp"
+        android:gravity="center"
+        android:text="@string/terminos"
+        android:textAlignment="center"
+        android:textColor="#579AFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTelefono" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

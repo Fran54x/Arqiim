@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="26dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/marcaproductos"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/favorite_image"
+            android:layout_width="123dp"
+            android:layout_height="131dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/prod1" />
+
+        <TextView
+            android:id="@+id/favorite_name"
+            android:layout_width="85dp"
+            android:layout_height="61dp"
+            android:layout_alignTop="@id/favorite_image"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/favorite_image"
+            android:text="@string/product_name1"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/favorite_details"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/favorite_name"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/favorite_image"
+            android:text="@string/product_details1"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/favorite_details2"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/favorite_name"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="29dp"
+            android:layout_toEndOf="@id/favorite_image"
+            android:text="@string/product_details2"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/favorite_price"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/favorite_details"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="-26dp"
+            android:layout_toEndOf="@id/favorite_image"
+            android:gravity="center_horizontal"
+            android:text="@string/product_price1"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/favoritoEliminar"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:layout_above="@+id/favorite_price"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="52dp"
+            android:layout_toEndOf="@+id/favorite_name"
+            android:src="@drawable/delete"
+            app:icon="@drawable/delete" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

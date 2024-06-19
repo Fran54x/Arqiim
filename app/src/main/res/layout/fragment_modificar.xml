@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crudFragments.ModificarFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTituloModificarProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modificar Productos" />
+
+            <EditText
+                android:id="@+id/etProductId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:hint="ID del Producto"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre del Producto"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etProductDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Descripción del Producto"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Precio del Producto"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etProductBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Marca del Producto"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/etProductModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Modelo del Producto"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/btnUpdateProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actualizar Producto"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

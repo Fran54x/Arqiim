@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyectofinal_moviles.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.proyectofinal_moviles.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.proyectofinal_moviles.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_compras"
+        android:name="com.example.proyectofinal_moviles.ui.Miscompras.MiscomprasFragment"
+        android:label="@string/menu_compras"
+        tools:layout="@layout/activity_compras" />
+
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.proyectofinal_moviles.ui.Historial.HistorialFragment"
+        android:label="@string/menu_histo"
+        tools:layout="@layout/activity_historial" />
+
+    <fragment
+        android:id="@+id/nav_Nosotros"
+        android:name="com.example.proyectofinal_moviles.ui.Nosotros.NosotrosFragment"
+        android:label="@string/menu_nos"
+        tools:layout="@layout/activity_nosotros" />
+
+    <fragment
+        android:id="@+id/nav_Favoritos"
+        android:name="com.example.proyectofinal_moviles.ui.Favoritos.FavoritosFragment"
+        android:label="@string/menu_fav"
+        tools:layout="@layout/activity_favoritos" />
+
+    <fragment
+        android:id="@+id/nav_ayuda"
+        android:name="com.example.proyectofinal_moviles.ui.Ayuda.AyudaFragment"
+        android:label="@string/menu_ayuda"
+        tools:layout="@layout/ayuda" />
+
+    <fragment
+        android:id="@+id/nav_terminos"
+        android:name="com.example.proyectofinal_moviles.ui.TerminosYcondiciones.TerminosYcondicionesFragment"
+        android:label="@string/Temrs"
+        tools:layout="@layout/activity_menu_terminos" />
+    <fragment
+        android:id="@+id/detalleragment"
+        android:name="com.example.proyectofinal_moviles.ui.Detalle.Detalleragment"
+        android:label="activity_detalle"
+        tools:layout="@layout/activity_detalle" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.proyectofinal_moviles.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
+
+</navigation>
